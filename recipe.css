@@ -547,5 +547,15 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     left: 0;
     opacity: 1;
   }
+  .close {
+    margin-right: 1%;
+    margin-top: -10%;
+  }
+  .container {
+    width: 80%;
+    margin-left: 7%;
+    font-size: 2rem;
+    margin-top: -20%;
+  }
 }
 /*# sourceMappingURL=recipe.css.map */
