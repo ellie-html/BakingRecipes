@@ -561,5 +561,8 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5) {
     font-size: 2rem;
     margin-top: -20%;
   }
+  .date__box {
+    margin-left: 5%;
+  }
 }
 /*# sourceMappingURL=recipe.css.map */
