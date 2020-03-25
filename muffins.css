@@ -67,13 +67,13 @@ h2 {
 }
 
 /* Remove margins and padding from the list */
-ul {
+.modal-content2 ul {
   margin: 0;
   padding: 0;
 }
 
 /* Style the list items */
-ul li {
+.modal-content2 ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -91,25 +91,25 @@ ul li {
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
+.modal-content2 ul li:nth-child(odd) {
   background: #0ef1ed;
 }
 
 /* Darker background-color on hover */
-ul li:hover {
+.modal-content2 ul li:hover {
   background: #FC354C;
   color: white;
 }
 
 /* When clicked on, add a background color and strike out text */
-ul li.checked {
+.modal-content2 ul li.checked {
   background: #FC354C;
   color: #fff;
   text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-ul li.checked::before {
+.modal-content2 ul li.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
