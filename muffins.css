@@ -124,6 +124,9 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
+  H2 {
+    text-align: center;
+  }
   .close2 {
     color: #aaa;
     float: right;
