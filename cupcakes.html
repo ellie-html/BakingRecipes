@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="recipe.css"/>
+    <link rel="stylesheet" type="text/css" href="muffins.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <article class="blog-card">
+              <div class="blog-card__background">
+                <div class="card__background--wrapper">
+                  <div class="card__background--main" style="background-image: url(https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+                    <div class="card__background--layer"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card__head">
+                <span class="date__box">
+                  <span class="date__day">FAIRY</span>
+                  <span class="date__month">CUPCAKES</span>
+                </span>
+              </div>
+              <div class="blog-card__info">
+                <h5>FLUFFY FAIRY CAKES READY TO BE DECORATED HOW YOU LIKE</h5>
+                <p>
+                  <a href="#" class="icon-link mr-3"><i class="fa  fa-balance-scale"></i> Serves: 24</a>
+                  <a href="#" class="icon-link"><i class="fa   fa-wrench"></i> Skill: Easy</a>
+                  <a href="#" class="icon-link"><i class="fa  fa-hourglass"></i> Time: 30mins</a>
+                </p>
+
+              
+                     
+                <p class="small-p">Our basic cupcake recipe makes fluffy cupcakes that are versatile and can be decorated for birthdays or other special occasions, or even just for a special Sunday afternoon treat. These simple cupcakes can be decorated with our homemade buttercream to create beautiful cupcake</p>
+               
+               <br>
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn"><h2> View Ingredients</h2></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <ul id="myUL">
+        <li>250g unsalted butter</li>
+        <li >250g caster sugar</li>
+        <li>250g self-raising flour</li>
+        <li>Pinch of salt</li>
+        <li>4 medium eggs</li>
+        <li>4 tablespoons milk</li>
+        <li> 1 egg</li>
+        <li>paper cases </li>
+      </ul>
+      
+  </div>
+
+</div>
+<br> <br>
+<h4 style="text-align: center;">  Method</h4>
+
+
+
+               
+
+<ul class="tilesWrap">
+    <li>
+        <h2>01</h2>
+        <h3>STEP 1</h3>
+        <p>
+            Set the oven to 190C, gas 5. 
+        </p>
+
+        
+    </li>
+    <li>
+        <h2>02</h2>
+        <h3>STEP 2</h3>
+        <p>
+            Tip the butter into a bowl and beat it until softened. Then add the sugar, flour, salt, eggs and milk and whisk until the mixture is smooth.
+              </p>
+       
+    </li>
+    <li>
+        <h2>03</h2>
+        <h3>STEP 3</h3>
+        <p>
+            Use a traditional-style ice-cream scoop, or spoon, to divide the mixture between all the paper cases
+        </p>
+        
+    </li>
+    <li>
+        <h2>04</h2>
+        <h3>STEP 4</h3>
+        <p>
+            Place both muffin tins in the oven and bake for 15 minutes, then swap over the position of the tins over and bake for a further 3-7 minutes, until both trays of cupcakes are a light golden colour. 
+        </p>
+      
+    </li>
+
+    <li>
+      <h2>05</h2>
+      <h3>STEP 5</h3>
+      <p>
+        Remove the tins from the oven. Leave the cupcakes to cool in the tins for a few minutes. Then transfer them to a wire rack to cool.   
+    </p>
+    
+  </li>
+</ul>    
+
+
+<a href="#" class="btn btn--with-icon"><i class="btn-icon fa fa-share-alt"></i>SHARE</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      
+      <section class="detail-page">
+        <div class="container mt-5">
+          
+        </div>
+      </section>
+  </div>
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="recipe.css"/>
+    <link rel="stylesheet" type="text/css" href="muffins.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <article class="blog-card">
+              <div class="blog-card__background">
+                <div class="card__background--wrapper">
+                  <div class="card__background--main" style="background-image: url('https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80');">
+                    <div class="card__background--layer"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card__head">
+                <span class="date__box">
+                  <span class="date__day">CHOC CHIP</span>
+                  <span class="date__month">COOKIES</span>
+                </span>
+              </div>
+              <div class="blog-card__info">
+                <h5>GORGEOUS CHEWY CHOCOLATE CHIP COOKIES RECIPE</h5>
+                <p>
+                  <a href="#" class="icon-link mr-3"><i class="fa  fa-balance-scale"></i> Serves: 20</a>
+                  <a href="#" class="icon-link"><i class="fa   fa-wrench"></i> Skill: Easy</a>
+                  <a href="#" class="icon-link"><i class="fa  fa-hourglass"></i> Time: 30mins</a>
+                </p>
+
+              
+                     
+                <p class="small-p">These easy chocolate chip cookies are simply scrumptious. Serve deliciously warm, straight from the oven or cooled and dunked in a perfect cuppa. The beautiful thing about making your own is you get to choose the size – extra large or mini cookies – they all taste fabulous. For a gooey, chewy finish, don’t cook them for too long, or if you like them crisp and crunchy – keep them baking until the max time. Simply divine!</p>
+               
+               <br>
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn"><h2> View Ingredients</h2></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <ul id="myUL">
+        <li>225g caster sugar</li>
+        <li >300g (2 cups) plain flour</li>
+        <li>2tsp baking powder</li>
+        <li>200g (1 cup) of butter melted</li>
+        <li>1tsp vanilla extract</li>
+        <li>1tsp of baking powder</li>
+        <li> 1 egg</li>
+        <li>chocolate chips </li>
+      </ul>
+      
+  </div>
+
+</div>
+<br> <br>
+<h4 style="text-align: center;">  Method</h4>
+
+
+
+               
+
+<ul class="tilesWrap">
+    <li>
+        <h2>01</h2>
+        <h3>STEP 1</h3>
+        <p>
+          Sift the flour, baking powder, vanilla and salt together and add to the sugar and butter mixture. Add the chocolate chips at this stage if you’re making chocolate chip cookies.
+        </p>
+
+        
+    </li>
+    <li>
+        <h2>02</h2>
+        <h3>STEP 2</h3>
+        <p>
+            Sift together the flour, cocoa and baking powder. Stir in the sugar. Add the remaining ingredients and mix lightly together.
+        </p>
+       
+    </li>
+    <li>
+        <h2>03</h2>
+        <h3>STEP 3</h3>
+        <p>
+          Mix together using your hand. Once you get a dough texture, add the egg and knead using your hand again.
+        </p>
+        
+    </li>
+    <li>
+        <h2>04</h2>
+        <h3>STEP 4</h3>
+        <p>
+          Spread some butter onto a baking tray. Take some of the dough, roll into ball then flatten a little. Keep them on the small side as they spread out during baking
+        </p>
+      
+    </li>
+
+    <li>
+      <h2>05</h2>
+      <h3>STEP 5</h3>
+      <p>
+        Place in the oven and bake at 160C, gas 3 for 10-20 mins. The bigger the cookies, the longer they’ll take to cook. They’re ready when the edges are a bit golden.
+      </p>
+    
+  </li>
+</ul>    
+
+
+<a href="#" class="btn btn--with-icon"><i class="btn-icon fa fa-share-alt"></i>SHARE</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      
+      <section class="detail-page">
+        <div class="container mt-5">
+          
+        </div>
+      </section>
+  </div>
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+
+</script>
+</body>
+</html>

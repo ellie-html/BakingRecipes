@@ -47,13 +47,12 @@
         </li>
         <li>
             <h2>04</h2>
-            <h3>Title 4</h3>
+            <h3>TASTY BROWNIES</h3>
             <p>
-                With the release of Letraset sheets containing Lorem Ipsum passages,  
-                and more recently with desktop publishing software like Aldus PageMaker 
-                including versions of Lorem Ipsum.
+              Chocolate brownies are meant to be gooey in the middle and this simple chocolate brownies recipe tells you exactly when it’s time.
             </p>
-            <button>Read more</button>
+            <i style="font-size:3rem; color: #0ABFBC; padding: 10px; padding-top: 20px;" class="fa">&#xf08a;</i>
+            <button id="myBtn4">Read More</button>
         </li>
     </ul>    
         
@@ -134,7 +133,7 @@
                           <a href="#" class="icon-link"><i class="fa fa-heart"></i> 220</a>
                         </p>
                         <p class="small-p">These easy chocolate chip cookies are simply scrumptious. Serve deliciously warm, straight from the oven or cooled and dunked in a perfect cuppa. The beautiful thing about making your own is you get to choose the size – extra large or mini cookies – they all taste fabulous. For a gooey, chewy finish, don’t cook them for too long, or if you like them crisp and crunchy – keep them baking until the max time. Simply divine!.</p>
-                        <a href="#" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>VIEW RECIPE</a>
+                        <a href="cookies.html" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>VIEW RECIPE</a>
                       </div>
                     </article>
                   </div>
@@ -187,7 +186,64 @@
                           <p class="small-p">Our basic cupcake recipe makes fluffy cupcakes that are versatile and can be decorated for birthdays or other special occasions, or even just for a special Sunday afternoon treat. These simple cupcakes can be decorated with our homemade buttercream to create beautiful cupcakes.
 
                           </p>
-                          <a href="#" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>VIEW RECIPE</a>
+                          <a href="cupcakes.html" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>VIEW RECIPE</a>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                
+                <section class="detail-page">
+                  <div class="container mt-5">
+                    
+                  </div>
+                </section>
+            </div>
+          
+          </div>
+  
+
+
+
+
+         
+
+
+          
+
+           <!-- The Modal -->
+           <div id="myModal4" class="modal4">
+        
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close4">&times;</span>
+              <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <article class="blog-card">
+                        <div class="blog-card__background">
+                          <div class="card__background--wrapper">
+                            <div class="card__background--main" style="background-image: url(https://images.unsplash.com/photo-1504205112279-feb7e1cbdf67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) ">
+                              <div class="card__background--layer"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="blog-card__head">
+                          <span class="date__box">
+                            <span class="date__day">TASTY</span>
+                            <span class="date__month">BROWNIES</span>
+                          </span>
+                        </div>
+                        <div class="blog-card__info">
+                          <h5> RICH FUDGY BROWNIES THAT COME OUT PERFECT EVERY TIME</h5>
+                          <p>
+                            <a href="#" class="icon-link mr-3"><i class="fa fa-pencil-square-o"></i> Ellie Baker</a>
+                            <a href="#" class="icon-link"><i class="fa fa-heart"></i> 185</a>
+                          </p>
+                          <p class="small-p">This chocolate brownies recipe makes rich, fudgy brownies that come out perfectly every time. Chocolate brownies are meant to be gooey in the middle and this simple chocolate brownies recipe tells you exactly when it’s time to take the brownies out of the oven to make them just right.
+
+                          </p>
+                          <a href="brownies.html" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>VIEW RECIPE</a>
                         </div>
                       </article>
                     </div>
@@ -290,6 +346,35 @@ window.onclick = function(event) {
     modal3.style.display = "none";
   }
 }
+
+
+// Get the modal
+var modal4 = document.getElementById("myModal4");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn4");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close4")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal4.style.display = "none";
+  }
+}
+
+
 
 
 
